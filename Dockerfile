@@ -23,6 +23,7 @@ RUN apk update && apk add \
   perl-class-accessor \
   perl-dbi \
   db \
+  graphviz \
   libsasl \
   libldap \
   libpq \
@@ -33,7 +34,6 @@ RUN apk update && apk add \
   perl-gd \
   perl-gdgraph \
   perl-dbd-mysql \
-  perl-graphviz \
   perl-ldap \
   perl-ipc-run \
   perl-graphviz \
