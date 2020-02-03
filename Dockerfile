@@ -1,5 +1,5 @@
 FROM alpine:3.10
-LABEL maintianer="Aaron C. de Bruyn <aaron@heyaaron.com>"
+LABEL maintainer="Jim Martens <github@2martens.de>"
 
 RUN apk update && apk add \
   spawn-fcgi \
